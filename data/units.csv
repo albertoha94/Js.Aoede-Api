@@ -1,0 +1,46 @@
+name, description, expansion, age, created_in, cost, build_time, reload_time, movement_rate, line_of_sight, hit_points, range, attack, armor, attack_bonus
+Villager,,Age of Empires,Stone,Town Center," {""Food"":50}",20,1.5,1.1,4,25,,3, 0/0,
+Clubman,,Age of Empires,Stone,Barracks," {""Food"":50}",26,1.5,1.2,4,40,,3, 0/0,
+Axemen,,Age of Empires,Tool,Barracks," {""Food"":50}",26,1.5,1.2,4,50,,5, 0/0,
+Slinger,,Rise of Rome,Tool,Barracks," {""Food"": 40;""Stone"": 10}",35,1.5,1.2,4,25,4,2, 0/2,+2 Foot archers; +4 vs Mounted archers.
+Short Swordsman,,Age of Empires,Bronze,Barracks," {""Food"": 35;""Gold"": 15}",26,1.5,1.2,4,60,,7, 1/0,
+Broad Swordsman,,Age of Empires,Bronze,Barracks," {""Food"": 35;""Gold"": 15}",26,1.5,1.2,4,80,,9, 1/0,
+Long Swordsman,,Age of Empires,Iron,Barracks," {""Food"": 35;""Gold"": 15}",26,1.5,1.2,4,100,,11,2/0,
+Legion,,Age of Empires,Iron,Barracks," {""Food"": 35;""Gold"": 15}",26,1.5,1.2,4,140,,13,2/0,
+Bowman,,Age of Empires,Tool,Archery Range," {""Food"": 40;""Wood"": 20}",30,1.4,1.2,7,35,5,3,0/0,
+Improved Bowman,,Age of Empires,Bronze,Archery Range," {""Food"": 40;""Gold"": 20}",30,1.4,1.2,8,40,6,4,0/0,
+Composite Bowman,,Age of Empires,Bronze,Archery Range," {""Food"": 40;""Gold"": 20}",30,1.4,1.2,9,45,7,5,0/0,
+Chariot Archer,,Age of Empires,Bronze,Archery Range," {""Food"": 40;""Wood"": 70}",40,1.5,2,9,70,7,4, 0/0,
+Elephant Archer,,Age of Empires,Iron,Archery Range," {""Food"": 180;""Gold"": 60}",50,1.5,0.9,8,600,7,6, 0/0,
+Horse Archer,,Age of Empires,Iron,Archery Range," {""Food"": 50;""Gold"": 70}",40,1.5,2.2,9,60,7,7,0/1,
+Heavy Horse Archer,,Age of Empires,Iron,Archery Range," {""Food"": 50;""Gold"": 70}",40,1.5,2.5,9,90,7,8,06/01/22,
+Scout,,Age of Empires,Tool,Stable," {""Food"": 90}",30,1.5,2,7,60,,3,0/0,
+Cavalry,,Age of Empires,Bronze,Stable," {""Food"": 70;""Gold"": 80}",40,1.5,2,4,150,,8,0/1,+5 vs Infantry.
+Heavy Cavalry,,Age of Empires,Iron,Stable," {""Food"": 70;""Gold"": 80}",40,1.5,2,4,150,,10,02/02/22,+6 vs Infantry.
+Cataphract,,Age of Empires,Iron,Stable," {""Food"": 70;""Gold"": 80}",40,1.5,2,4,240,,19,5/3,+7 vs Infantry.
+Chariot,,Age of Empires,Bronze,Stable," {""Food"": 40,”Wood”:60}",40,1.5,2,4,100,,7,0/0,
+Scythe Chariot,,Rise of Rome,Iron,Stable," {""Food"": 40,”Wood”:60}",40,1.5,2,4,138,,9,1/0,
+War Elephant,,Age of Empires,Iron,Stable," {""Food"": 170;""Gold"": 40}",50,1.5,0.9,5,600,,15,0/0,
+Armored Elephant,,Rise of Rome,Iron,Stable," {""Food"": 170;""Gold"": 40}",50,1.5,0.9,5,600,,18,2/1,
+Camel Rider,,Rise of Rome,Bronze,Stable," {""Food"": 70;""Gold"": 60}",30,1.5,2,4,125,,6,0/0,"+8 vs Scout, Cavalry and Horse Archer; +4 vs Elephant Units; +4 vs Chariot Units."
+Stone Thrower,,Age of Empires,Bronze,Siege Workshop," {""Wood"": 180;""Gold"": 80}",60,5.375,0.8,,75,10,50,0/0,+10 vs Fire Galleys;
+Catapult,,Age of Empires,Iron,Siege Workshop," {""Wood"": 180;""Gold"": 80}",,5.375,0.8,,75,12,60,0/0,+10 vs Fire Galleys;
+Heavy Catapult,,Age of Empires,Iron,Siege Workshop," {""Wood"": 180;""Gold"": 80}",,5.375,0.8,,150,13,60,0/0,+10 vs Fire Galleys;
+Ballista,,Age of Empires,Iron,Siege Workshop," {""Wood"": 100;""Gold"": 80}",50,2.7,0.8,,55,9,40,0/0,+5 vs Fire Galleys;
+Helepolis,,Age of Empires,Iron,Siege Workshop," {""Wood"": 100;""Gold"": 80}",50,1.85,0.8,,55,10,45,0/0,+5 vs Fire Galleys;
+Hoplite,,Age of Empires,Bronze,Academy," {""Food"": 60;""Gold"": 40}",36,1.5,0.9,4,120,,17,5/0,
+Phalanx,,Age of Empires,Iron,Academy," {""Food"": 60;""Gold"": 40}",,1.5,0.9,4,120,,20,7/0,
+Centurion,,Age of Empires,Iron,Academy," {""Food"": 60;""Gold"": 40}",36,1.5,1.125,4,160,,30,8/0,
+Priest,,Age of Empires,Bronze,Temple," {""Gold"": 125}",50,,0.8,12,25,10,0,0/0,
+Scout Ship,,Age of Empires,Tool, Dock," {""Wood"": 135}",,1.5,1.75,,120,5,5,0/0,
+War Galley,,Age of Empires,Bronze, Dock," {""Wood"": 135}",,1.7,1.75,,160,6,8,0/0,
+Trireme,,Age of Empires,Iron, Dock," {""Wood"": 135}",,1.89,1.75,,200,7,12,0/0,
+Catapult Trireme,,Age of Empires,Iron, Dock," {""Wood"": 135;""Gold"": 50}",,5.3,1.45,,135,9,35,0/0,+10 vs Fire Galleys;
+Juggernaught,,Age of Empires,Iron, Dock," {""Wood"": 135;""Gold"": 50}",,5.3,1.45,,200,12,35,0/0,+10 vs Fire Galleys;
+Fire Galley,,Rise of Rome,Iron, Dock," {""Wood"": 200;""Gold"": 200}",50,6,0.9,8,200,6,50, 6/5,
+Fishing Boat,,Age of Empires,Stone, Dock," {""Wood"": 50}",,,1.4,6,45,,,0/0,
+Fishing Ship,,Age of Empires,Bronze, Dock," {""Wood"": 50}",,,2,6,75,,, 0/0,
+Trade Boat,,Age of Empires,Stone, Dock," {""Wood"": 100}",,,2,4,120,,, 0/0,
+Merchant Ship,,Age of Empires,Bronze, Dock," {""Wood"": 100}",,,2.5,4,200,,, 0/0,
+Light Transport,,Age of Empires,Tool, Dock," {""Wood"": 150}",75,,1.4,4,150,,, 0/0,Garrison 5 units.
+Heavy Transport,,Age of Empires,Iron, Dock," {""Wood"": 150}",75,,1.75,5,200,,, 0/0,Garrison 10 units.
