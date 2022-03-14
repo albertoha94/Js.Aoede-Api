@@ -1,17 +1,17 @@
-name, expansion, army_type, civilization_bonus,,,,,
-Assyrian,Age of Empires,Range, Villagers move 10% faster.,Archers shoot 25% faster.,,,,
-Babylonian,Age of Empires,Towers/Priest,Walls and Towers +60% hitpoints.,Stone miners work 20% faster and carry +2 stone.,Priests rejuvenate 30% faster.,Market technologies cost -30%.,,
-Carthaginian,The Rise of Rome,Elephant/Academy,Start the game with +50 of all resources.,Academy and elephant units have +25% hitpoints.,Camel riders have +15% hitpoints.,Fire Galleys move +25% faster.,Transport ships move +25% faster.,
-Choson,Age of Empires,Infantry,"Axemen, Short/Broad/Long Swordsmen and Legion have +5/15/20/60/80 hitpoints.",Storage pit technologies cost -40%.,Towers have +2 range.,Priests cost -32%.,,
-Egyptian,Age of Empires,Chariot/Priest,Farms cost -20%.,Gold miners work 20% faster and carry +2 gold.,Chariot units have +33% hitpoints.,Priests have +3 range.,,
-Greek,Age of Empires,Academy/Naval,Academy units move 30% faster and are 20% cheaper.,Ships move 20% faster.,Town Centers work 10% faster starting in the tool age.,,,
-Hitite,Age of Empires,Range/Siege/Naval,Ranged units have +1 attack.,Stone Thrower/Catapult and Heavy Catapult have +50% hitpoints.,Scout Ships and War Galleys have +2 range in the Tool Age and +3 in the Bronze/Iron Age.,,,
-Macedonian,The Rise of Rome,Academy/Siege,All non-ranged units have +2 line of sight.,"Academy units have +1 pierce armor in Bronze Age, +2 in Iron Age.",Siege Workshop units cost -25%.,All units are 4 times more resistant to conversion.,,
-Minoan,Age of Empires,Range/Naval,Ships cost -30%.,Composite Bowmen +2 range.,Farms provide +60 food.,,,
-Palmyran,The Rise of Rome,Camel,Villagers cost 75 food but have +1 armor and work 25% faster.,Start the game with +75 food.,Camel Riders move +25% faster.,Tributes are free.,Trade ships return more gold.,Tributes are free.
-Persian,Age of Empires,Elephant/Naval,Triremes shoot +25% faster.,Elephant Units  move 25% faster.,Hunters work 30% faster and carry +3 food.,,,
-Phoenician,Age of Empires,Elephant/Naval,Woodcutters work 15% faster and carry +2 wood.,Elephant Units cost -25%.,Catapult Trirremes and Juggernaughts shoot -24% faster.,,,
-Roman,The Rise of Rome,Infantry,Swordsmen units attack 33% faster.,Buildings cost -10%.,Towers cost -40%.,,,
-Shang,Age of Empires,Walls,Villagers cost 40 food.,Start the game with -40 food.,Walls have +60% hitpoints.,,,
-Sumerian,Age of Empires,Siege,Villagers have +15 hitpoints.,Stone Thrower/Catapult and Heavy Catapult shoot 30% faster.,Farms provide +125 food.,,,
-Yamato,Age of Empires,Cavalry/Range/Naval,Villagers move 10% faster.,All Cavalry units and Horse Archers cost -15%. ,Ships have +20% hitpoints.,,,
+name, expansion, army_type, civilization_bonus
+Assyrian,Age of Empires,Range, Villagers move 10% faster.;Archers shoot 25% faster.
+Babylonian,Age of Empires,Towers/Priest,Walls and Towers +60% hitpoints.;Stone miners work 20% faster and carry +2 stone.;Priests rejuvenate 30% faster.;Market technologies cost -30%.
+Carthaginian,The Rise of Rome,Elephant/Academy,Start the game with +50 of all resources.;Academy and elephant units have +25% hitpoints.;Camel riders have +15% hitpoints.;Fire Galleys move +25% faster.;Transport ships move +25% faster.
+Choson,Age of Empires,Infantry,Axemen//c Short/Broad/Long Swordsmen and Legion have +5/15/20/60/80 hitpoints.;Storage pit technologies cost -40%.;Towers have +2 range.;Priests cost -32%.
+Egyptian,Age of Empires,Chariot/Priest,Farms cost -20%.;Gold miners work 20% faster and carry +2 gold.;Chariot units have +33% hitpoints.;Priests have +3 range.
+Greek,Age of Empires,Academy/Naval,Academy units move 30% faster and are 20% cheaper.;Ships move 20% faster.;Town Centers work 10% faster starting in the tool age.
+Hitite,Age of Empires,Range/Siege/Naval,Ranged units have +1 attack.;Stone Thrower/Catapult and Heavy Catapult have +50% hitpoints.;Scout Ships and War Galleys have +2 range in the Tool Age and +3 in the Bronze/Iron Age.
+Macedonian,The Rise of Rome,Academy/Siege,All non-ranged units have +2 line of sight.;Academy units have +1 pierce armor in Bronze Age//c +2 in Iron Age.;Siege Workshop units cost -25%.;All units are 4 times more resistant to conversion.
+Minoan,Age of Empires,Range/Naval,Ships cost -30%.;Composite Bowmen +2 range.;Farms provide +60 food.
+Palmyran,The Rise of Rome,Camel,Villagers cost 75 food but have +1 armor and work 25% faster.;Start the game with +75 food.;Camel Riders move +25% faster.;Tributes are free.;Trade ships return more gold.
+Persian,Age of Empires,Elephant/Naval,Triremes shoot +25% faster.;Elephant Units  move 25% faster.;Hunters work 30% faster and carry +3 food.
+Phoenician,Age of Empires,Elephant/Naval,Woodcutters work 15% faster and carry +2 wood.;Elephant Units cost -25%.;Catapult Trirremes and Juggernaughts shoot -24% faster.
+Roman,The Rise of Rome,Infantry,Swordsmen units attack 33% faster.;Buildings cost -10%.;Towers cost -40%.
+Shang,Age of Empires,Walls,Villagers cost 40 food.;Start the game with -40 food.;Walls have +60% hitpoints.
+Sumerian,Age of Empires,Siege,Villagers have +15 hitpoints.;Stone Thrower/Catapult and Heavy Catapult shoot 30% faster.;Farms provide +125 food.
+Yamato,Age of Empires,Cavalry/Range/Naval,Villagers move 10% faster.;All Cavalry units and Horse Archers cost -15%.;Ships have +20% hitpoints.
