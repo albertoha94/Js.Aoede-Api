@@ -34,6 +34,8 @@ const valueMapper = function ({ header, index, value }) {
     }
     // Special is an array.
     else if (index == 11 && header == 'special') {
+        if (mValue.length < 1)
+            return [];
         var mListData = mValue.split(';');
         return mListData;
     } else {
@@ -45,7 +47,6 @@ const onEndMapper = (itemId) => {
         return results;
     } else {
         var parsedId = parseInt(itemId);
-        console.log('parsedId', parsedId);
         if (isNaN(parsedId)) {
             return { 'error': 'Id not valid.' };
         } else {
@@ -71,7 +72,6 @@ router.get("/:id", function (req, res, next) {
         .on('end', () => {
             var itemId = req.params.id;
             var response = onEndMapper(itemId);
-            console.log('response', response);
             res.send(response);
         });
 });
