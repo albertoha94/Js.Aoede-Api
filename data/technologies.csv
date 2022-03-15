@@ -1,47 +1,47 @@
-name, expansion, age, develops_in, cost, build_time, applies_to, description,,
-Woodworking,Age of Empires,Tool,Market," {""Food"":120,“Wood”:75}",60,Villagers;Ranged Units/Buildings,Woodcutters work 20% faster and carry +2 wood.,+1 missile range.,
-Stone Mining,Age of Empires,Tool,Market,"{“Food”:100,“Stone”:50}",,Villagers;Slingers,Stone miners work 30% faster and carry +3 stone.,Slinger +1 Attack/Range.,
-Gold Mining,Age of Empires,Tool,Market,"{“Food”:120,“Wood”:100}",,Villagers,Gold miners wrok 30% faster and carry +3 gold.,,
-Domestication,Age of Empires,Tool,Market,"{“Food”:150,”Wood”:50}",,Farms,Farms +75 food.,,
-Artisanship,Age of Empires,Bronze,Market,"{“Food”:170,”Wood”:150}",,Villagers;Ranged Units/Buildings,Woodcutters work 20% faster and carry +2 wood.,+1 missile range.,
-Wheel,Age of Empires,Bronze,Market,"{“Food”:175,”Wood”:75}",,Villagers,Villagers move 50% faster.,,
-Plow,Age of Empires,Bronze,Market,"{“Food”:250,”Wood”:75}",,Farms,Farms +100 food.,,
-Craftmanship,Age of Empires,Iron,Market,"{“Food”:240,”Wood”:200}",,Villagers;Ranged Units/Buildings,Woodcutters work 20% faster and carry +2 wood.,+1 missile range.,
-Coinage,Age of Empires,Iron,Market,"{“Food”:200,”Gold”:100}",,Villagers,Increases gold mine productivity by 25%.,Tribute is free.,Gold miners work 33% faster and carry +3 gold.
-Irrigation,Age of Empires,Iron,Market,"{“Food”:300,”Wood”:100}",,Farms,Farms +125 food.,,
-Siegecraft,Age of Empires,Iron,Market,"{“Food”:190,”Stone”:100}",,Villagers;Slingers,Stone miners work 30% faster and carry +3 stone.,Increases villager attack vs Walls/Towers.,Slinger +1 Attack/Range.
-Polytheism,Age of Empires,Bronze,Temple,{“Gold”:120},,Priests,Priests move 40% faster.,,
-Mysticism,Age of Empires,Bronze,Temple,{“Gold”:120},,Priests,Priests hitpoints x2.,,
-Astrology,Age of Empires,Bronze,Temple,{“Gold”:175},,Priests,Priests conversion and healing are 30% more effective.,,
-Medicine,Rise of Rome,Iron,Temple,{“Gold”:150},50,Priests,Priests healing rate increased.,,
-Monotheism,Age of Empires,Iron,Temple,{“Gold”:350},,Priests,Priests can convert buidlings and other priests.,,
-Afterlife,Age of Empires,Iron,Temple,{“Gold”:275},,Priests,Priests +3 conversion range.,,
-Fanaticism,Age of Empires,Iron,Temple,{“Gold”:150},,Priests,Priests rejuvenate 50% faster.,,
-Zealotry,Age of Empires,Iron,Temple,{“Gold”:120},,Priests,Villagers attack/speed and hitpoints increased.,Villagers gathering capacity reduced.,
-Sacrifice,Rise of Rome,Iron,Temple,{“Gold”:600},,Priests,Sacrifice Priests to instantly convert an enemy Unit.,,
-Toolworking,Age of Empires,Tool,Storage Pit,{“Food”:100},40,Melee Units,Melee Units +2 attack.,,
-Metalworking,Age of Empires,Bronze,Storage Pit,"{“Food”:200,”Gold”:100}",75,Melee Units,Melee Units +2 attack.,,
-Metallurgy,Age of Empires,Iron,Storage Pit,"{“Food”:300,”Gold”:180}",100,Melee Units,Melee Units +3 attack.,,
-Leather Armor for Infantry,Age of Empires,Tool,Storage Pit,{“Food”:75},30,Infantry,Infantry Units +2 armor.,,
-Leather Armor for Cavalry,Age of Empires,Tool,Storage Pit,{“Food”:125},30,Cavalry,Stable Units +2 armor.,,
-Leather Armor for Archers,Age of Empires,Tool,Storage Pit,{“Food”:100},30,Archers,Ranged Units +2 armor.,,
-Scale Armor for Infantry,Age of Empires,Bronze,Storage Pit,"{“Food”:100,”Gold”:50}",60,Infantry,Infantry Units +2 armor.,,
-Scale Armor for Cavalry,Age of Empires,Bronze,Storage Pit,"{“Food”:150,”Gold”:50}",60,Cavalry,Stable Units +2 armor.,,
-Scale Armor for Archers,Age of Empires,Bronze,Storage Pit,"{“Food”:125,”Gold”:50}",60,Archers,Ranged Units +2 armor.,,
-Chain Mail for Infantry,Age of Empires,Iron,Storage Pit,"{“Food”:125,”Gold”:100}",75,Infantry,Infantry Units +2 armor.,,
-Chain Mail for Cavalry,Age of Empires,Iron,Storage Pit,"{“Food”:175,”Gold”:100}",75,Infantry,Stable Units +2 armor.,,
-Chain Mail for Archers,Age of Empires,Iron,Storage Pit,"{“Food”:150,”Gold”:100}",75,Archers,Ranged Units +2 armor.,,
-Bronze Shield,Age of Empires,Bronze,Storage Pit,"{“Food”:150,”Gold”:180}",50,Infantry,Infantry +1 pierce armor.,,
-Iron Shield,Age of Empires,Iron,Storage Pit,"{“Food”:200,”Gold”:320}",75,Infantry,Infantry +1 pierce armor.,,
-Tower Shield,Rise of Rome,Iron,Storage Pit,"{“Food”:250,”Gold”:400}",100,Infantry,Infantry +1 pierce armor.,,
-Logistics,Rise of Rome,Bronze,Goverment Center,"{“Food”:180,”Gold”:100}",,Barracks Units,Barracks Units take ½ population space.,,
-Aristocracy,Age of Empires,Bronze,Goverment Center,"{“Food”:175,”Gold”:150}",,Academy Units,Academy Units move 25% faster.,,
-Nobility,Age of Empires,Bronze,Goverment Center,"{“Food”:175,”Gold”:120}",,Horse Units,Horse Units +15% hitpoints.,,
-Engineering,Age of Empires,Iron,Goverment Center,"{“Food”:200,”Wood”:100}",,Siege Units,Siege Units and Siege Ships +2 range.,,
-Alchemy,Age of Empires,Iron,Goverment Center,"{“Food”:250,”Gold”:200}",,Ranged Units/Buildings;Fire Galley,Ranged Units/Buildings +1 attack.,Fire Galley +6 attack.,
-Ballistics,Age of Empires,Iron,Goverment Center,"{“Food”:200,”Gold”:50}",,Ranged Units/Buildings,Increase accuracy of Ranged Units/Buildings and Siege.,,
-Architecture,Age of Empires,Bronze,Goverment Center,"{“Food”:150,”Wood”:175}",,Buildings,Buildings are build in 33% less time and have +20% hitpoints.,,
-Writing,Age of Empires,Bronze,Goverment Center,"{“Food”:200,”Gold”:75}",,Team,Shares exploration with allies.,,
-Tool Age,Age of Empires,Stone,Town Center,{“Food”:500},,Player,Advances the player to the Tool Age.,,
-Bronze Age,Age of Empires,Tool,Town Center,{“Food”:800},140,Player,Advances the player to the Bronze Age.,,
-Iron Age,Age of Empires,Bronze,Town Center,"{“Food”:1000, “Gold”:800}",160,Player,Advances the player to the Iron Age.,,
+name,expansion,age,develops_in,cost,build_time,applies_to,description
+Woodworking,Age of Empires,Tool,Market," {""Food"":120//c""Wood"":75}",60,Villagers;Ranged Units/Buildings,Woodcutters work 20% faster and carry +2 wood.;+1 missile range.
+Stone Mining,Age of Empires,Tool,Market,"{""Food"":100//c""Stone"":50}",,Villagers;Slingers,Stone miners work 30% faster and carry +3 stone.;Slinger +1 Attack/Range.
+Gold Mining,Age of Empires,Tool,Market,"{""Food"":120//c""Wood"":100}",,Villagers,Gold miners work 30% faster and carry +3 gold.
+Domestication,Age of Empires,Tool,Market,"{""Food"":150//c""Wood"":50}",,Farms,Farms +75 food.
+Artisanship,Age of Empires,Bronze,Market,"{""Food"":170//c""Wood"":150}",,Villagers;Ranged Units/Buildings//cWoodcutters work 20% faster and carry +2 wood.;+1 missile range.
+Wheel,Age of Empires,Bronze,Market,"{""Food"":175//c""Wood"":75}",,Villagers,Villagers move 50% faster.
+Plow,Age of Empires,Bronze,Market,"{""Food"":250//c""Wood"":75}",,Farms,Farms +100 food.
+Craftmanship,Age of Empires,Iron,Market,"{""Food"":240//c""Wood"":200}",,Villagers;Ranged Units/Buildings,Woodcutters work 20% faster and carry +2 wood.;+1 missile range.
+Coinage,Age of Empires,Iron,Market,"{""Food"":200//c""Gold"":100}",,Villagers,Increases gold mine productivity by 25%.;Tribute is free.;Gold miners work 33% faster and carry +3 gold.
+Irrigation,Age of Empires,Iron,Market,"{""Food"":300//c""Wood"":100}",,Farms,Farms +125 food.
+Siegecraft,Age of Empires,Iron,Market,"{""Food"":190//c""Stone"":100}",,Villagers;Slingers,Stone miners work 30% faster and carry +3 stone.;Increases villager attack vs Walls/Towers.;Slinger +1 Attack/Range.
+Polytheism,Age of Empires,Bronze,Temple,"{""Gold"":120}",,Priests,Priests move 40% faster.
+Mysticism,Age of Empires,Bronze,Temple,"{""Gold"":120}",,Priests,Priests hitpoints x2.
+Astrology,Age of Empires,Bronze,Temple,"{""Gold"":175}",,Priests,Priests conversion and healing are 30% more effective.
+Medicine,Rise of Rome,Iron,Temple,"{""Gold"":150}",50,Priests,Priests healing rate increased.
+Monotheism,Age of Empires,Iron,Temple,"{""Gold"":350}",,Priests,Priests can convert buidlings and other priests.
+Afterlife,Age of Empires,Iron,Temple,"{""Gold"":275}",,Priests,Priests +3 conversion range.
+Fanaticism,Age of Empires,Iron,Temple,"{""Gold"":150}",,Priests,Priests rejuvenate 50% faster.
+Zealotry,Age of Empires,Iron,Temple,"{""Gold"":120}",,Priests,Villagers attack/speed and hitpoints increased.;Villagers gathering capacity reduced.
+Sacrifice,Rise of Rome,Iron,Temple,"{""Gold"":600}",,Priests,Sacrifice Priests to instantly convert an enemy Unit.
+Toolworking,Age of Empires,Tool,Storage Pit,"{""Food"":100}",40,Melee Units,Melee Units +2 attack.
+Metalworking,Age of Empires,Bronze,Storage Pit,"{""Food"":200//c""Gold"":100}",75,Melee Units,Melee Units +2 attack.
+Metallurgy,Age of Empires,Iron,Storage Pit,"{""Food"":300//c""Gold"":180}",100,Melee Units,Melee Units +3 attack.
+Leather Armor for Infantry,Age of Empires,Tool,Storage Pit,"{""Food"":75}",30,Infantry,Infantry Units +2 armor.
+Leather Armor for Cavalry,Age of Empires,Tool,Storage Pit,"{""Food"":125}",30,Cavalry,Stable Units +2 armor.
+Leather Armor for Archers,Age of Empires,Tool,Storage Pit,"{""Food"":100}",30,Archers,Ranged Units +2 armor.
+Scale Armor for Infantry,Age of Empires,Bronze,Storage Pit,"{""Food"":100//c""Gold"":50}",60,Infantry,Infantry Units +2 armor.
+Scale Armor for Cavalry,Age of Empires,Bronze,Storage Pit,"{""Food"":150//c""Gold"":50}",60,Cavalry,Stable Units +2 armor.
+Scale Armor for Archers,Age of Empires,Bronze,Storage Pit,"{""Food"":125//c""Gold"":50}",60,Archers,Ranged Units +2 armor.
+Chain Mail for Infantry,Age of Empires,Iron,Storage Pit,"{""Food"":125//c""Gold"":100}",75,Infantry,Infantry Units +2 armor.
+Chain Mail for Cavalry,Age of Empires,Iron,Storage Pit,"{""Food"":175//c""Gold"":100}",75,Infantry,Stable Units +2 armor.
+Chain Mail for Archers,Age of Empires,Iron,Storage Pit,"{""Food"":150//c""Gold"":100}",75,Archers,Ranged Units +2 armor.
+Bronze Shield,Age of Empires,Bronze,Storage Pit,"{""Food"":150//c""Gold"":180}",50,Infantry,Infantry +1 pierce armor.
+Iron Shield,Age of Empires,Iron,Storage Pit,"{""Food"":200//c""Gold"":320}",75,Infantry,Infantry +1 pierce armor.
+Tower Shield,Rise of Rome,Iron,Storage Pit,"{""Food"":250//c""Gold"":400}",100,Infantry,Infantry +1 pierce armor.
+Logistics,Rise of Rome,Bronze,Goverment Center,"{""Food"":180//c""Gold"":100}",,Barracks Units,Barracks Units take 1/2 population space.
+Aristocracy,Age of Empires,Bronze,Goverment Center,"{""Food"":175//c""Gold"":150}",,Academy Units,Academy Units move 25% faster.
+Nobility,Age of Empires,Bronze,Goverment Center,"{""Food"":175//c""Gold"":120}",,Horse Units,Horse Units +15% hitpoints.
+Engineering,Age of Empires,Iron,Goverment Center,"{""Food"":200//c""Wood"":100}",,Siege Units,Siege Units and Siege Ships +2 range.
+Alchemy,Age of Empires,Iron,Goverment Center,"{""Food"":250//c""Gold"":200}",,Ranged Units/Buildings;Fire Galley,Ranged Units/Buildings +1 attack.;Fire Galley +6 attack.
+Ballistics,Age of Empires,Iron,Goverment Center,"{""Food"":200//c""Gold"":50}",,Ranged Units/Buildings,Increase accuracy of Ranged Units/Buildings and Siege.
+Architecture,Age of Empires,Bronze,Goverment Center,"{""Food"":150//c""Wood"":175}",,Buildings,Buildings are build in 33% less time and have +20% hitpoints.
+Writing,Age of Empires,Bronze,Goverment Center,"{""Food"":200//c""Gold"":75}",,Team,Shares exploration with allies.
+Tool Age,Age of Empires,Stone,Town Center,"{""Food"":500}",,Player,Advances the player to the Tool Age.
+Bronze Age,Age of Empires,Tool,Town Center,"{""Food"":800}",140,Player,Advances the player to the Bronze Age.
+Iron Age,Age of Empires,Bronze,Town Center,"{""Food"":1000//c ""Gold"":800}",160,Player,Advances the player to the Iron Age.

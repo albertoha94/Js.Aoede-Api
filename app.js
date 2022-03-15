@@ -8,6 +8,7 @@ var indexRouter = require('./routes/index');
 var civilizationsRouter = require('./routes/civilizations');
 var structuresRouter = require('./routes/structures');
 var unitsRouter = require('./routes/units');
+var techsRouter = require('./routes/technologies');
 
 var app = express();
 
@@ -25,6 +26,7 @@ app.use('/', indexRouter);
 app.use('/civilizations', civilizationsRouter);
 app.use('/structures', structuresRouter);
 app.use('/units', unitsRouter);
+app.use('/technologies', techsRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
