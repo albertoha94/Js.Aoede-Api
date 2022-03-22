@@ -1,0 +1,218 @@
+openapi: 3.0.0
+
+schemes:
+  - https
+
+info:
+  title: "Age Of Empires: Definitive Edition API"
+  description: "Simple API to retrieve resources related to Age of Empires: Definitive Edition."
+  version: "1.0.0"
+  contact:
+    name: Alberto Herrera Alanis
+
+externalDocs:
+  description: "Project repository"
+  url: "https://github.com/albertoha94/Js.Aoede-Api"
+
+produces:
+  - "application/json"
+
+paths:
+  /civilizations/all:
+    get:
+      summary: Gets a list of the civilizations in the game.
+      responses:
+        200:
+          description: A list of civilization objects.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CivilizationList"
+        404:
+          description: A response object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/responses/ResponseObject"
+  /civilizations/{id}:
+    get:
+      summary: Gets a given civilization by its id.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Numeric Id of the civilization to get.
+          schema:
+            type: string
+      responses:
+        200:
+          description: A civilization object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Civilization"
+        404:
+          description: A response object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/responses/ResponseObject"
+
+                /civilizations/all:
+    get:
+      summary: Gets list of the civilizations in the game.
+      responses:
+        200:
+          description: A list of civilization objects.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/CivilizationList"
+        404:
+          description: A response object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/responses/ResponseObject"
+
+  /structures/all:
+    get:
+      summary: Gets a list of the structures in the game.
+      responses:
+        200:
+          description: A list of structure objects.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/StructureList"
+        404:
+          description: A response object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/responses/ResponseObject"
+  /structures/{id}:
+    get:
+      summary: Gets a given structure by its id.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Numeric Id of the structure to get.
+          schema:
+            type: string
+      responses:
+        200:
+          description: A structure object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Structure"
+        404:
+          description: A response object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/responses/ResponseObject"
+
+  /technologies/all:
+    get:
+      summary: Gets a list of the technologies in the game.
+      responses:
+        200:
+          description: A list of technology objects.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/TechnologyList"
+        404:
+          description: A response object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/responses/ResponseObject"
+  /technologies/{id}:
+    get:
+      summary: Gets a given technology by its id.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Numeric Id of the technology to get.
+          schema:
+            type: string
+      responses:
+        200:
+          description: A technology object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Technology"
+        404:
+          description: A response object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/responses/ResponseObject"
+
+  /units/all:
+    get:
+      summary: Gets a list of the units in the game.
+      responses:
+        200:
+          description: A list of unit objects.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/UnitList"
+        404:
+          description: A response object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/responses/ResponseObject"
+  /units/{id}:
+    get:
+      summary: Gets a given unit by its id.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Numeric Id of the unit to get.
+          schema:
+            type: string
+      responses:
+        200:
+          description: A unit object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Unit"
+        404:
+          description: A response object.
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/responses/ResponseObject"
+
+components:
+  responses:
+    ResponseObject:
+      $ref: "./openapi/responses.yaml#/ResponseObject"
+  schemas:
+    Civilization:
+      $ref: "./openapi/schemas.yaml#/Civilization"
+    CivilizationList:
+      $ref: "./openapi/schemas.yaml#/CivilizationList"
+    Unit:
+      $ref: "./openapi/schemas.yaml#/Unit"
+    UnitList:
+      $ref: "./openapi/schemas.yaml#/UnitList"
+    Structure:
+      $ref: "./openapi/schemas.yaml#/Structure"
+    StructureList:
+      $ref: "./openapi/schemas.yaml#/StructureList"
+    Technology:
+      $ref: "./openapi/schemas.yaml#/Technology"
+    TechnologyList:
+      $ref: "./openapi/schemas.yaml#/TechnologyList"
