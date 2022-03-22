@@ -22,6 +22,7 @@ const fileHeaders = [
   'armor',
   'attack_bonus'
 ];
+
 const valueMapper = function ({ header, index, value }) {
   // Replace the //c with a comma (,).
   var mValue = String(value).replace('//c', ",");
@@ -47,22 +48,26 @@ const valueMapper = function ({ header, index, value }) {
 };
 const onEndMapper = (itemId) => {
   if (itemId === 'all') {
-    return results;
+    return {
+      status: 200,
+      data: results
+    };
   } else {
     var parsedId = parseInt(itemId);
-    if (isNaN(parsedId)) {
-      return { 'error': 'Id not valid.' };
+    if (isNaN(parsedId) || parsedId >= results.length) {
+      return {
+        status: 404,
+        data: 'Unable to find element with given Id.'
+      };
     } else {
-      if (parsedId >= results.length) {
-        return { 'error': 'Id not found.' };
-      } else {
-        var item = results.at(parsedId);
-        return item;
-      }
+      var item = results.at(parsedId);
+      return {
+        status: 200,
+        data: item
+      };
     }
   }
 };
-
 
 router.get("/:id", function (req, res, next) {
   fs.createReadStream(fileRoute)
