@@ -76,7 +76,7 @@ router.get("/:id", function (req, res, next) {
         .on('end', () => {
             var itemId = req.params.id;
             var response = onEndMapper(itemId);
-            res.send(response);
+            res.status(response.status).send(response.data);
         });
 });
 
