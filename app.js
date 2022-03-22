@@ -14,7 +14,6 @@ var structuresRouter = require('./routes/structures');
 var unitsRouter = require('./routes/units');
 var techsRouter = require('./routes/technologies');
 
-
 /**
  * Return JSON with resolved references
  * @param {array | object} root - The structure to find JSON References within (Swagger spec)
@@ -62,7 +61,9 @@ const createApp = async () => {
   app.use('/', swaggerUi.serve, swaggerUi.setup(
     swaggerDocument,
     {
-      customSiteTitle: appTitle
+      customSiteTitle: appTitle,
+      customfavIcon: "./images/favicon/favicon.ico",
+      customCss: `.swagger-ui .topbar { display: none }`,
     })
   );
   app.get('*', function (req, res) {
