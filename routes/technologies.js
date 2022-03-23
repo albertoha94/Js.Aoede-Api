@@ -2,9 +2,10 @@ var express = require('express');
 var router = express.Router();
 const fs = require('fs');
 const csv = require('csv-parser');
+var path = require('path');
 const results = [];
 
-const fileRoute = 'data/technologies.csv';
+const fileRoute = path.resolve(__dirname, "../data/technologies.csv");
 const fileHeaders = [
   'name',
   'expansion',
