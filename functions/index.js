@@ -1,4 +1,4 @@
 const functions = require("firebase-functions");
-const mApp = require("../app");
+const aoedeApp = require("aoede-net-api");
 
-exports.api = functions.https.onRequest(mApp);
+exports.api = functions.https.onRequest(aoedeApp);

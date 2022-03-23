@@ -1,7 +1,6 @@
 {
   "name": "aoede-net-api",
-  "version": "1.0.0",
-  "private": true,
+  "version": "1.0.1",
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -15,5 +14,23 @@
     "morgan": "~1.9.1",
     "swagger-ui-express": "^4.3.0",
     "yamljs": "^0.3.0"
-  }
+  },
+  "description": "Simple API to retrieve resources related to Age of Empires: Definitive Edition.",
+  "main": "app.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertoha94/aoede-net-api.git"
+  },
+  "keywords": [
+    "age",
+    "of",
+    "empires"
+  ],
+  "author": "Alberto Herrera Alanis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertoha94/aoede-net-api/issues"
+  },
+  "homepage": "https://github.com/albertoha94/aoede-net-api#readme"
 }
