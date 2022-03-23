@@ -3,6 +3,12 @@ openapi: 3.0.0
 schemes:
   - https
 
+servers:
+  - url: ""
+    description: "Age of Empires: Definitive Edition API - Localhost"
+  - url: "/api/"
+    description: "Age of Empires: Definitive Edition API"
+
 info:
   title: "Age Of Empires: Definitive Edition API"
   description: "Simple API to retrieve resources related to Age of Empires: Definitive Edition."
